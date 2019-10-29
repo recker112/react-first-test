@@ -1,2 +1,2 @@
-# react-first-test
+# React
 Mi primera app con React

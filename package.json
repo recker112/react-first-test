@@ -1,0 +1,47 @@
+{
+  "name": "react-first-test",
+  "version": "1.0.0",
+  "description": "Mi primera app con React",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server -p --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recker112/react-first-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/recker112/react-first-test/issues"
+  },
+  "homepage": "https://github.com/recker112/react-first-test#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.3.5",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "regenerator-runtime": "^0.13.3",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "terser-webpack-plugin": "^2.2.1",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
